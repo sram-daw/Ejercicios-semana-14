@@ -27,7 +27,7 @@ public class Triangulo extends Trigono implements Forma {
     @Override
     public double calcular_area() {
         return this.lado1 * this.lado2 / 2;
-    }
+    } //triángulo rectángulo
 
     @Override
     public double calcular_perimetro() {

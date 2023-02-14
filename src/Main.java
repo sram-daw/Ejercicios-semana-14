@@ -6,9 +6,9 @@ public class Main {
         Punto punto4Cuad = new Punto(35, 40);
 
         Punto punto1Rec = new Punto(10, 20);
-        Punto punto2Rec = new Punto(30, 25);
-        Punto punto3Rec = new Punto(5, 14);
-        Punto punto4Rec = new Punto(5, 14);
+        Punto punto2Rec = new Punto(30, 40);
+        Punto punto3Rec = new Punto(8, 14);
+        Punto punto4Rec = new Punto(17, 44);
 
         Punto punto1Tria = new Punto(5, 14);
         Punto punto2Tria = new Punto(18, 25);
@@ -27,11 +27,13 @@ public class Main {
             if (f instanceof Cuadrilatero) {
                 f.dibujar_puntos();
                 f.rellenar_forma();
-                System.out.println("El área del " + ((Cuadrilatero) f).getNombre() + "es igual a " + f.calcular_area() + " y el perímetro es igual a " + f.calcular_perimetro());
+                System.out.println("El área del " + ((Cuadrilatero) f).getNombre() + " es igual a " + f.calcular_area() + " y el perímetro es igual a " + f.calcular_perimetro());
+                System.out.println();
             } else if (f instanceof Trigono) {
                 f.dibujar_puntos();
                 f.rellenar_forma();
                 System.out.println("El área del " + ((Trigono) f).getNombre() + " es igual a " + f.calcular_area() + " y el perímetro es igual a " + f.calcular_perimetro());
+                System.out.println();
 
             }
         }
