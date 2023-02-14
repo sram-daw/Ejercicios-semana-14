@@ -1,7 +1,7 @@
 public abstract class Trigono {
 
     private String nombre;
-    public Punto[] vertices = new Punto[3]; //No puede ser private porque luego va a tener que heredarlo Cuadrado
+    private Punto[] vertices = new Punto[3]; //No puede ser private porque luego va a tener que heredarlo Cuadrado
 
     public Trigono(Punto p1, Punto p2, Punto p3, String nombre) { //necesario para que Cuadrado pueda hacer uso de super en su constructor
         this.vertices[0] = p1;

@@ -13,12 +13,12 @@ public class Rectangulo extends Cuadrilatero implements Forma {
 
     @Override
     public void dibujar_puntos() {
-
+        System.out.println("Se han dibujado los puntos de un rectángulo.");
     }
 
     @Override
     public void rellenar_forma() {
-
+        System.out.println("Se ha rellenado la forma de un rectángulo.");
     }
 
     @Override

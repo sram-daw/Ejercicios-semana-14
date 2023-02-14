@@ -11,12 +11,12 @@ public class Cuadrado extends Cuadrilatero implements Forma {
 
     @Override
     public void dibujar_puntos() {
-
+        System.out.println("Se ha dibujado un cuadrado.");
     }
 
     @Override
     public void rellenar_forma() {
-
+        System.out.println("Se ha rellenado la forma de un cuadrado.");
     }
 
     @Override

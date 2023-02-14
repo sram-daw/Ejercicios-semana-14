@@ -16,12 +16,12 @@ public class Triangulo extends Trigono implements Forma {
 
     @Override
     public void dibujar_puntos() {
-
+        System.out.println("Se han dibujado los puntos de un triángulo.");
     }
 
     @Override
     public void rellenar_forma() {
-
+        System.out.println("Se ha rellenado la forma de un triángulo.");
     }
 
     @Override

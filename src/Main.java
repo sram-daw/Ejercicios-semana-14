@@ -25,8 +25,12 @@ public class Main {
 
         for (Forma f : conjuntoFormas) {
             if (f instanceof Cuadrilatero) {
+                f.dibujar_puntos();
+                f.rellenar_forma();
                 System.out.println("El área del " + ((Cuadrilatero) f).getNombre() + "es igual a " + f.calcular_area() + " y el perímetro es igual a " + f.calcular_perimetro());
             } else if (f instanceof Trigono) {
+                f.dibujar_puntos();
+                f.rellenar_forma();
                 System.out.println("El área del " + ((Trigono) f).getNombre() + " es igual a " + f.calcular_area() + " y el perímetro es igual a " + f.calcular_perimetro());
 
             }
